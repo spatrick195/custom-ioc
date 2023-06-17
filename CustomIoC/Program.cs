@@ -1,6 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using System;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Linq;
 
 // we want to create a IoC. to do this we'll need a resolver and a container.
 // the container will store the dependencies, the resolver will resolve them.
